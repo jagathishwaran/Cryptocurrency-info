@@ -1,12 +1,11 @@
 
 ## Title
 
-Website Launch countdown
+Cryptocurrency info
 
 
 ## Description 
-
-A launch countdown site with a visually appealing design, countdown timer, and interactive elements. Get ready for the launch and stay updated with the remaining days, hours, minutes, and seconds. Visit the GitHub repository for more details.
+This is a cryptocurrency information website built using HTML, CSS, and JavaScript. It displays the current value of Bitcoin, Ethereum, and Dogecoin on the homepage. Clicking on the respective cryptocurrency images redirects the user to their corresponding pages on "https://www.coingecko.com/" for more detailed information.
 
 ## Authors
 
@@ -15,70 +14,65 @@ A launch countdown site with a visually appealing design, countdown timer, and i
     
 ## Getting Started
 
-Website launch countdown, follow these steps:
+Getting Started with the Cryptocurrency Info Site:
 
-   1. Download the source code:
+   1. Obtain the API URL:
 
-    --Clone or download the repository.
+    --Visit "https://www.coingecko.com/en/api/documentation".
 
-    --Save the files to your local machine.
+    --Retrieve the API URL needed for this project: "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2CEthereum%2Cdogecoin&vs_currencies=inr".
 
-   2. Open the project:
+    --Note that you can customize the URL to display information for other cryptocurrencies or change the currency system to USD or any other currency if desired.
+
+   2. Download the source code:
+
+    --Clone or download the repository to your local machine.
+
+   3. Open the project:
 
     --Use your preferred code editor to open the downloaded project files.
 
-   3. Customize the code:
+   4. Customize the code:
 
-    --Modify the HTML, CSS, and JavaScript files as needed.
+    --Modify the HTML, CSS, or JavaScript files to match your website's design and requirements.
 
-    --Update the logo, background image, and colors to match your branding.
+    --Update the API URL in the JavaScript file if needed.
 
-    --Adjust the countdown date and maintenance message according to your launch schedule.
+   5. Test the application:
 
-   5. Add additional content:
+    --Open the HTML file in a web browser.
 
-    --Expand the content section with more information about your website launch.
+    --Verify that the values for Bitcoin, Ethereum, and Dogecoin are displayed correctly.
 
-    --Customize the button text and link to provide relevant information or resources.
+    --Click on the cryptocurrency images and confirm that they redirect to the respective CoinGecko pages.
 
-   6. Test the website countdown:
+   6. Deploy the application:
 
-    --Open the HTML file in a web browser to see the customized countdown in action.
+    --Host the updated code on your preferred web server or hosting platform.
 
-    --Ensure that the countdown timer accurately displays the remaining time until your website launch.
+   7. Share and enjoy:
 
-    --Verify that the zoom effect on the logo works correctly when hovered.
+    --Share the cryptocurrency info site with others to provide them with real-time cryptocurrency value information.
 
-    --Click the "Learn More" button and confirm that it opens the specified link in a new tab.
-
-   7. Deploy the countdown site:
-
-    --Upload the modified code to your web hosting or server.
-
-    --Follow the deployment instructions provided by your hosting provider.
-
-Note: The provided code offers a foundation for a visually appealing countdown site for your website launch. Feel free to customize it further to add more features, adjust the layout, or incorporate additional animations. Enjoy the flexibility of tailoring the countdown site to build anticipation and engage your audience before your website goes live.
-
+Note: The provided code is customizable, allowing you to edit the displayed coins and currency system to suit your preferences. Feel free to modify the HTML, CSS, or JavaScript files to enhance the website's functionality or design according to your specific requirements.
 
 
 ## Features
 
 
-   1. Countdown Timer: Stay informed about the upcoming website launch with a dynamic countdown timer.
 
-   2. Visually Appealing Design: Eye-catching background image, logo, and animations enhance the visual experience.
+   1. Real-time cryptocurrency value display for Bitcoin, Ethereum, and Dogecoin.
 
-   3. Maintenance Message: A clear message indicating that the website is under maintenance.
+   2. Interactive links to the CoinGecko website for each cryptocurrency.
 
-   4. Learn More Button: Easily access additional information about the launch by clicking the button.
+   3. Navigation bar with links to global charts, cryptocurrency comparison, new coins, and learning resources.
 
-   5. Responsive Layout: The site is designed to be responsive and adapt to different screen sizes.
+   4. Responsive design with a visually appealing layout.
 
-   6. Zoom Effect: The logo image zooms in when hovered, adding an interactive element.
+   5. API integration to fetch the latest cryptocurrency values.
 
-   7. Rocket Animation: A rocket image animates from the bottom to the top, adding a dynamic touch.
+   6. Customizable styles and images to suit your preferences.
 
-   8. Easy Customization: Modify the content, styling, and countdown date in the code to fit your needs.
 
 
 ## Contributing
